@@ -1,0 +1,50 @@
+body {
+	border-top: 4px solid #444;
+}
+
+.container {
+	margin: auto;
+	width: 600px;
+	background: #FFF;
+	box-shadow: 0em .1em .4em #888;
+}
+
+.jumbotron h2 {
+	font-weight: bold;
+
+}
+
+table, th, .jumbotron h2 {
+	text-align: center;
+}
+
+.marks {
+	transition: .2s all linear;
+}
+
+.form-control {
+	width: 270px;
+	margin-right: -10px;
+	margin-left: 10px;
+	display: inline;
+}
+
+.btn {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.mark {
+	color: #FFF;
+	background: #2E6DA4; 
+	text-decoration: line-through;
+}
+
+.mark:hover {
+	box-shadow: .0em .2em .4em #444;
+	background: #337AB7;
+}
+
+input {
+	text-align: center;
+}
